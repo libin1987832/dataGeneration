@@ -1,0 +1,14 @@
+#goal definition
+sensor_msgs/Pointcloud map
+geometry_msgs/Transform[] centre_mass
+std_msgs/String path_name
+std_msgs/String world_name
+std_msgs/String map_name
+std_msgs/String sequence_name
+---
+#result definition
+stereo_sequence/SimSequence[] ArraySeq
+std_msgs/String[] Names
+---
+#feedback
+std_msgs/String TaskStatus

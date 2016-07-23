@@ -1,0 +1,8 @@
+#goal definition
+std_msgs/Empty foo
+---
+#result definition
+stereo_sequence/SimSequence[] ArraySeq
+---
+#feedback
+std_msgs/String TaskStatus

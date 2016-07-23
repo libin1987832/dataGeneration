@@ -1,0 +1,6 @@
+std_msgs/String l_topic
+std_msgs/String id
+---
+std_msgs/Empty foo
+---
+std_msgs/Empty fooo

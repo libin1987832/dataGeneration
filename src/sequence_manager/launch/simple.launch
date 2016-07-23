@@ -1,0 +1,84 @@
+<launch>
+	<param name="/SimSettings/Display" value = "false" />
+	<param name="/SimSettings/TotalSeq" type="int" value="1"/>
+	<param name="/SimSettings/Synthetic" value ="true"/>
+	<param name="/SimSettings/PixelStdDev" type="int" value="10"/>
+	<param name="/SimSettings/ImgHeight" type="int" value="768"/>
+	<param name="/SimSettings/ImgWidth" type="int" value="1024"/>
+	<param name="/SimSettings/PixelHeight" type="double" value="0.0000067"/>
+	<param name="/SimSettings/PixelWidth" type="double" value="0.0000067"/>
+	<param name="/SimSettings/Resolution/X" type="int" value="1024"/>
+	<param name="/SimSettings/Resolution/Y" type="int" value="768"/>
+	
+	<param name="/Names/Simulator" value="/sim_node"/>
+	<param name="/Names/Sequence_Manager" value="/sequence_node"/>
+	<param name="/Names/Matcher" value="/match_node"/>
+	<param name="/Names/Motion" value="/estimation_node"/>
+	<param name="/Names/Odometry" value="/odometry_node"/>
+
+	<param name="/LeftCam/Intrinsic/M11" value= "923.5295" type="double"/>
+	<param name="/LeftCam/Intrinsic/M12" value= "0.0" type="double"/>
+	<param name="/LeftCam/Intrinsic/M13" value= "507.2222" type="double"/>
+	<param name="/LeftCam/Intrinsic/M21" value= "0.0" type="double"/>
+	<param name="/LeftCam/Intrinsic/M22" value= "922.2418" type="double"/>
+	<param name="/LeftCam/Intrinsic/M23" value= "383.5822" type="double"/>
+	<param name="/LeftCam/Intrinsic/M31" value= "0.0" type="double"/>
+	<param name="/LeftCam/Intrinsic/M32" value= "0.0" type="double"/>
+	<param name="/LeftCam/Intrinsic/M33" value= "1.0" type="double"/>
+	<param name="/LeftCam/Distortion/D1" value="0.0" type="double"/>
+	<param name="/LeftCam/Distortion/D2" value="0.0" type="double"/>
+	<param name="/LeftCam/Distortion/D3" value="0.0" type="double"/>
+	<param name="/LeftCam/Distortion/D4" value="0.0" type="double"/>
+	<param name="/leftCam/Distortion/D5" value="0.0" type="double"/>
+	<param name="/LeftCam/Translation/X" value="-2.2005" type="double"/>
+	<param name="/LeftCam/Translation/Y" value="0.0" type="double"/>
+	<param name="/LeftCam/Translation/Z" value="0.0" type="double"/>
+	<param name="/LeftCam/Rotation/Yaw" value="0.0" type="double"/>
+	<param name="/LeftCam/Rotation/Pitch" value="0.0" type="double"/>
+	<param name="/LeftCam/Rotation/Roll" value="0.0" type="double"/>
+			
+
+	<param name="/RightCam/Intrinsic/M11" value= "911.3657" type="double"/>
+	<param name="/RightCam/Intrinsic/M12" value= "0.0" type="double"/>
+	<param name="/RightCam/Intrinsic/M13" value= "519.3951" type="double"/>
+	<param name="/RightCam/Intrinsic/M21" value= "0.0" type="double"/>
+	<param name="/RightCam/Intrinsic/M22" value= "909.3910" type="double"/>
+	<param name="/RightCam/Intrinsic/M23" value= "409.0285" type="double"/>
+	<param name="/RightCam/Intrinsic/M31" value= "0.0" type="double"/>
+	<param name="/RightCam/Intrinsic/M32" value= "0.0" type="double"/>
+	<param name="/RightCam/Intrinsic/M33" value= "1.0" type="double"/>
+	<param name="/RightCam/Distortion/D1" value="0.0" type="double"/>
+	<param name="/RightCam/Distortion/D2" value="0.0" type="double"/>
+	<param name="/RightCam/Distortion/D3" value="0.0" type="double"/>
+	<param name="/RightCam/Distortion/D4" value="0.0" type="double"/>
+	<param name="/RightCam/Distortion/D5" value="0.0" type="double"/>
+	<param name="/RightCam/Translation/X" value="2.2000" type="double"/>
+	<param name="/RightCam/Translation/Y" value="0.0" type="double"/>
+	<param name="/RightCam/Translation/Z" value="0.0" type="double"/>
+	<param name="/RightCam/Rotation/Yaw" value="10.0" type="double"/>
+	<param name="/RightCam/Rotation/Pitch" value="0.0" type="double"/>
+	<param name="/RightCam/Rotation/Roll" value="0.0" type="double"/>
+
+
+	<param name="/WorldSettings/Mean_Y" value="30.0" type="double"/>
+	<param name="/WorldSettings/Mean_X" value="0.0" type="double"/>
+	<param name="/WorldSettings/Mean_Z" value="0.0" type="double"/>
+	<param name="/WorldSettings/StdDev_Y" value="10.0" type="double"/>
+	<param name="/WorldSettings/StdDev_X" value="10.0" type="double"/>
+	<param name="/WorldSettings/StdDev_Z" value="10.0" type="double"/>
+
+	<param name="/WorldSettings/SeedStart" value="1" type ="int"/>
+	<param name="/WorldSettings/TotalPoints"  type ="int" value="15"/>
+	<param name="/WorldSettings/TotalMap" type="int" value ="1"/>
+
+	<param name="/PathSettings/RefreshRate" value="3" type = "double"/>
+	<param name="/PathSettings/TotalPath" type="int" value="1"/>
+	<param name="/PathSettings/TotalPoses" type="int" value="3"/>
+	
+	<node pkg="sequence_manager" name="sequence_node" type="sequence_node" output="screen"/>
+	<node pkg="simulator" name="sim_node" type="sim_node" output="screen"/>
+	<node pkg="blackbox_matcher" name="match_node" type="blackbox_node" output="screen"/>	
+	<node pkg="motion_estimation" name="estimation_node" type="estimation_node" output="screen"/>
+<!--	<node pkg="triangulation" name="triangulation_node" type="triangulation_node" output="screen"/>
+	<node pkg="odometry" name="odometry_node" type="odometry_node" output="screen"/>-->
+</launch>

@@ -1,0 +1,17 @@
+std_msgs/String world_name
+std_msgs/Bool new_world
+std_msgs/String path_name
+std_msgs/Bool new_path
+std_msgs/String unique_id
+std_msgs/String original_id
+std_msgs/String ideal_id
+std_msgs/String noisy_id
+std_msgs/Bool new_camera
+std_msgs/Bool visualize
+std_msgs/Bool generate_graph
+---
+#result definition
+std_msgs/Empty foo
+---
+#feedback
+std_msgs/Empty fooo

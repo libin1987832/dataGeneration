@@ -1,0 +1,2 @@
+blackbox_matcher:motion_estimation:sequence_manager:shared_files:simulator
+-DCATKIN_DEVEL_PREFIX=/home/ryan/GitHub_WorkSpace/dataGeneration/devel -DCMAKE_INSTALL_PREFIX=/home/ryan/GitHub_WorkSpace/dataGeneration/install -G Unix Makefiles

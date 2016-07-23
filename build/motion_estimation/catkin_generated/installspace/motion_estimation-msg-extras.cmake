@@ -1,0 +1,2 @@
+set(motion_estimation_MESSAGE_FILES "msg/configMotionEstimationAction.msg;msg/configMotionEstimationActionGoal.msg;msg/configMotionEstimationActionResult.msg;msg/configMotionEstimationActionFeedback.msg;msg/configMotionEstimationGoal.msg;msg/configMotionEstimationResult.msg;msg/configMotionEstimationFeedback.msg")
+set(motion_estimation_SERVICE_FILES "")

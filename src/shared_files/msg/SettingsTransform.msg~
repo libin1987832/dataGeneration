@@ -1,0 +1,5 @@
+geometry_msgs::TransformStamped cm_l
+geometry_msgs::TransformStamped l_cv
+geometry_msgs::TransformStamped cm_r
+geometry_msgs::TransformStamped r_cv
+geometry_msgs::TransformStamped w_cm

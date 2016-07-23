@@ -1,0 +1,31 @@
+
+(cl:in-package :asdf)
+
+(defsystem "shared_files-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils :geometry_msgs-msg
+               :std_msgs-msg
+)
+  :components ((:file "_package")
+    (:file "MatchFrame" :depends-on ("_package_MatchFrame"))
+    (:file "_package_MatchFrame" :depends-on ("_package"))
+    (:file "TransformNames" :depends-on ("_package_TransformNames"))
+    (:file "_package_TransformNames" :depends-on ("_package"))
+    (:file "SettingsTransform" :depends-on ("_package_SettingsTransform"))
+    (:file "_package_SettingsTransform" :depends-on ("_package"))
+    (:file "RelativePoint" :depends-on ("_package_RelativePoint"))
+    (:file "_package_RelativePoint" :depends-on ("_package"))
+    (:file "MatchingPoints" :depends-on ("_package_MatchingPoints"))
+    (:file "_package_MatchingPoints" :depends-on ("_package"))
+    (:file "TopicNames" :depends-on ("_package_TopicNames"))
+    (:file "_package_TopicNames" :depends-on ("_package"))
+    (:file "PointEstimate" :depends-on ("_package_PointEstimate"))
+    (:file "_package_PointEstimate" :depends-on ("_package"))
+    (:file "PixelMatch" :depends-on ("_package_PixelMatch"))
+    (:file "_package_PixelMatch" :depends-on ("_package"))
+    (:file "FrameEstimate" :depends-on ("_package_FrameEstimate"))
+    (:file "_package_FrameEstimate" :depends-on ("_package"))
+    (:file "PointSet" :depends-on ("_package_PointSet"))
+    (:file "_package_PointSet" :depends-on ("_package"))
+    (:file "RelativeFrame" :depends-on ("_package_RelativeFrame"))
+    (:file "_package_RelativeFrame" :depends-on ("_package"))
+  ))
