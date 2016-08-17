@@ -9,19 +9,12 @@
 	#include <shared_files/standard_opencv_headers.h>
 	#include <shared_files/standard_transform_communication_headers.h>
 
-
-	//#include <image_transport/image_transport.h>
-	//#include <cv_bridge/cv_bridge.h>
-	//#include <sensor_msgs/image_encodings.h>  //image transport headers (default)
-
-	#include <simulator/configSimulationAction.h>
-	#include <simulator/newSimulationAction.h>
 	/********************
 	External LIbraries Includes
 	********************/
 	#include <shared_files/RelativeFrame.h>
 	#include <shared_files/RelativePoint.h>
-	#include <blackbox_matcher/configCameraAction.h>
+//	#include <blackbox_matcher/configCameraAction.h>
 //	#include <nav_msgs/Path.h>
 //	#include <geometry_msgs/Pose.h>
 //	#include <geometry_msgs/PoseStamped.h>
@@ -35,13 +28,15 @@
 
 	#include <tf2_geometry_msgs/tf2_geometry_msgs.h>
 
+	#include <simulator/PubManager.h>
 class Sim
 {
 	private:
 		//class declarations
 			ros::NodeHandle handle_;
 			int total_frames_;
-			bool wait_front,visualize_;
+			std::vector<PubManager> _publishers;
+	/*		bool wait_front,visualize_;
 			pcl::PointCloud<pcl::PointXYZ> PointCloud;
 		//Transform declarations
 	
@@ -81,15 +76,13 @@ class Sim
 			void genRelativeTransformations();
 			void addToRelativeFrame(const pcl::PointCloud<pcl::PointXYZ> &relative_pcl,int frame_no);
 			void extractBaseLineParameters();
-			void configureOtherNodes();
+			void configureOtherNodes();*/
 		//action servers
-			actionlib::SimpleActionServer<simulator::configSimulationAction> *server_config_;
-			actionlib::SimpleActionServer<simulator::newSimulationAction> *server_new_simulation_;
+			actionlib::SimpleActionServer<simulator::genDataAction> *server_data_;
 			//callback functions
-				void configServerAction(const simulator::configSimulationGoalConstPtr &goal);
-				void startSimulation(const simulator::newSimulationGoalConstPtr &goal);
+				void genDataServerAction(const simulator::genDataGoalConstPtr &goal);
 		//action clients
-			actionlib::SimpleActionClient<blackbox_matcher::configCameraAction> *client_config_matcher_;
+		//	actionlib::SimpleActionClient<blackbox_matcher::configCameraAction> *client_config_matcher_;
 	public:
 	//constructors
 		Sim();

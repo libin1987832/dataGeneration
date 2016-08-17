@@ -118,10 +118,10 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/ryan/GitHub_WorkSpace/dataGeneration/build/gtest/cmake_install.cmake")
   include("/home/ryan/GitHub_WorkSpace/dataGeneration/build/shared_files/cmake_install.cmake")
-  include("/home/ryan/GitHub_WorkSpace/dataGeneration/build/motion_estimation/cmake_install.cmake")
-  include("/home/ryan/GitHub_WorkSpace/dataGeneration/build/blackbox_matcher/cmake_install.cmake")
+  include("/home/ryan/GitHub_WorkSpace/dataGeneration/build/matcher/cmake_install.cmake")
   include("/home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator/cmake_install.cmake")
-  include("/home/ryan/GitHub_WorkSpace/dataGeneration/build/sequence_manager/cmake_install.cmake")
+  include("/home/ryan/GitHub_WorkSpace/dataGeneration/build/menu/cmake_install.cmake")
+  include("/home/ryan/GitHub_WorkSpace/dataGeneration/build/te/cmake_install.cmake")
 
 endif()
 

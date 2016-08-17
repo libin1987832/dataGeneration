@@ -1,2 +1,2 @@
-set(simulator_MESSAGE_FILES "msg/newSimulationAction.msg;msg/newSimulationActionGoal.msg;msg/newSimulationActionResult.msg;msg/newSimulationActionFeedback.msg;msg/newSimulationGoal.msg;msg/newSimulationResult.msg;msg/newSimulationFeedback.msg;msg/configSimulationAction.msg;msg/configSimulationActionGoal.msg;msg/configSimulationActionResult.msg;msg/configSimulationActionFeedback.msg;msg/configSimulationGoal.msg;msg/configSimulationResult.msg;msg/configSimulationFeedback.msg")
+set(simulator_MESSAGE_FILES "msg/genDataAction.msg;msg/genDataActionGoal.msg;msg/genDataActionResult.msg;msg/genDataActionFeedback.msg;msg/genDataGoal.msg;msg/genDataResult.msg;msg/genDataFeedback.msg")
 set(simulator_SERVICE_FILES "")

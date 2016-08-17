@@ -105,16 +105,94 @@ simulator/CMakeFiles/sim_node.dir/src/Sim.cpp.o.provides: simulator/CMakeFiles/s
 simulator/CMakeFiles/sim_node.dir/src/Sim.cpp.o.provides.build: simulator/CMakeFiles/sim_node.dir/src/Sim.cpp.o
 
 
+simulator/CMakeFiles/sim_node.dir/src/PubManager.cpp.o: simulator/CMakeFiles/sim_node.dir/flags.make
+simulator/CMakeFiles/sim_node.dir/src/PubManager.cpp.o: /home/ryan/GitHub_WorkSpace/dataGeneration/src/simulator/src/PubManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object simulator/CMakeFiles/sim_node.dir/src/PubManager.cpp.o"
+	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sim_node.dir/src/PubManager.cpp.o -c /home/ryan/GitHub_WorkSpace/dataGeneration/src/simulator/src/PubManager.cpp
+
+simulator/CMakeFiles/sim_node.dir/src/PubManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sim_node.dir/src/PubManager.cpp.i"
+	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ryan/GitHub_WorkSpace/dataGeneration/src/simulator/src/PubManager.cpp > CMakeFiles/sim_node.dir/src/PubManager.cpp.i
+
+simulator/CMakeFiles/sim_node.dir/src/PubManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sim_node.dir/src/PubManager.cpp.s"
+	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ryan/GitHub_WorkSpace/dataGeneration/src/simulator/src/PubManager.cpp -o CMakeFiles/sim_node.dir/src/PubManager.cpp.s
+
+simulator/CMakeFiles/sim_node.dir/src/PubManager.cpp.o.requires:
+
+.PHONY : simulator/CMakeFiles/sim_node.dir/src/PubManager.cpp.o.requires
+
+simulator/CMakeFiles/sim_node.dir/src/PubManager.cpp.o.provides: simulator/CMakeFiles/sim_node.dir/src/PubManager.cpp.o.requires
+	$(MAKE) -f simulator/CMakeFiles/sim_node.dir/build.make simulator/CMakeFiles/sim_node.dir/src/PubManager.cpp.o.provides.build
+.PHONY : simulator/CMakeFiles/sim_node.dir/src/PubManager.cpp.o.provides
+
+simulator/CMakeFiles/sim_node.dir/src/PubManager.cpp.o.provides.build: simulator/CMakeFiles/sim_node.dir/src/PubManager.cpp.o
+
+
+simulator/CMakeFiles/sim_node.dir/src/Map.cpp.o: simulator/CMakeFiles/sim_node.dir/flags.make
+simulator/CMakeFiles/sim_node.dir/src/Map.cpp.o: /home/ryan/GitHub_WorkSpace/dataGeneration/src/simulator/src/Map.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object simulator/CMakeFiles/sim_node.dir/src/Map.cpp.o"
+	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sim_node.dir/src/Map.cpp.o -c /home/ryan/GitHub_WorkSpace/dataGeneration/src/simulator/src/Map.cpp
+
+simulator/CMakeFiles/sim_node.dir/src/Map.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sim_node.dir/src/Map.cpp.i"
+	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ryan/GitHub_WorkSpace/dataGeneration/src/simulator/src/Map.cpp > CMakeFiles/sim_node.dir/src/Map.cpp.i
+
+simulator/CMakeFiles/sim_node.dir/src/Map.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sim_node.dir/src/Map.cpp.s"
+	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ryan/GitHub_WorkSpace/dataGeneration/src/simulator/src/Map.cpp -o CMakeFiles/sim_node.dir/src/Map.cpp.s
+
+simulator/CMakeFiles/sim_node.dir/src/Map.cpp.o.requires:
+
+.PHONY : simulator/CMakeFiles/sim_node.dir/src/Map.cpp.o.requires
+
+simulator/CMakeFiles/sim_node.dir/src/Map.cpp.o.provides: simulator/CMakeFiles/sim_node.dir/src/Map.cpp.o.requires
+	$(MAKE) -f simulator/CMakeFiles/sim_node.dir/build.make simulator/CMakeFiles/sim_node.dir/src/Map.cpp.o.provides.build
+.PHONY : simulator/CMakeFiles/sim_node.dir/src/Map.cpp.o.provides
+
+simulator/CMakeFiles/sim_node.dir/src/Map.cpp.o.provides.build: simulator/CMakeFiles/sim_node.dir/src/Map.cpp.o
+
+
+simulator/CMakeFiles/sim_node.dir/src/Path.cpp.o: simulator/CMakeFiles/sim_node.dir/flags.make
+simulator/CMakeFiles/sim_node.dir/src/Path.cpp.o: /home/ryan/GitHub_WorkSpace/dataGeneration/src/simulator/src/Path.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object simulator/CMakeFiles/sim_node.dir/src/Path.cpp.o"
+	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sim_node.dir/src/Path.cpp.o -c /home/ryan/GitHub_WorkSpace/dataGeneration/src/simulator/src/Path.cpp
+
+simulator/CMakeFiles/sim_node.dir/src/Path.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sim_node.dir/src/Path.cpp.i"
+	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ryan/GitHub_WorkSpace/dataGeneration/src/simulator/src/Path.cpp > CMakeFiles/sim_node.dir/src/Path.cpp.i
+
+simulator/CMakeFiles/sim_node.dir/src/Path.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sim_node.dir/src/Path.cpp.s"
+	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ryan/GitHub_WorkSpace/dataGeneration/src/simulator/src/Path.cpp -o CMakeFiles/sim_node.dir/src/Path.cpp.s
+
+simulator/CMakeFiles/sim_node.dir/src/Path.cpp.o.requires:
+
+.PHONY : simulator/CMakeFiles/sim_node.dir/src/Path.cpp.o.requires
+
+simulator/CMakeFiles/sim_node.dir/src/Path.cpp.o.provides: simulator/CMakeFiles/sim_node.dir/src/Path.cpp.o.requires
+	$(MAKE) -f simulator/CMakeFiles/sim_node.dir/build.make simulator/CMakeFiles/sim_node.dir/src/Path.cpp.o.provides.build
+.PHONY : simulator/CMakeFiles/sim_node.dir/src/Path.cpp.o.provides
+
+simulator/CMakeFiles/sim_node.dir/src/Path.cpp.o.provides.build: simulator/CMakeFiles/sim_node.dir/src/Path.cpp.o
+
+
 # Object files for target sim_node
 sim_node_OBJECTS = \
 "CMakeFiles/sim_node.dir/src/node.cpp.o" \
-"CMakeFiles/sim_node.dir/src/Sim.cpp.o"
+"CMakeFiles/sim_node.dir/src/Sim.cpp.o" \
+"CMakeFiles/sim_node.dir/src/PubManager.cpp.o" \
+"CMakeFiles/sim_node.dir/src/Map.cpp.o" \
+"CMakeFiles/sim_node.dir/src/Path.cpp.o"
 
 # External object files for target sim_node
 sim_node_EXTERNAL_OBJECTS =
 
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: simulator/CMakeFiles/sim_node.dir/src/node.cpp.o
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: simulator/CMakeFiles/sim_node.dir/src/Sim.cpp.o
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: simulator/CMakeFiles/sim_node.dir/src/PubManager.cpp.o
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: simulator/CMakeFiles/sim_node.dir/src/Map.cpp.o
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: simulator/CMakeFiles/sim_node.dir/src/Path.cpp.o
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: simulator/CMakeFiles/sim_node.dir/build.make
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: /opt/ros/indigo/lib/libpcl_ros_filters.so
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: /opt/ros/indigo/lib/libpcl_ros_io.so
@@ -165,17 +243,17 @@ sim_node_EXTERNAL_OBJECTS =
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: /opt/ros/indigo/lib/libtf2_ros.so
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: /opt/ros/indigo/lib/libactionlib.so
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: /opt/ros/indigo/lib/libmessage_filters.so
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: /opt/ros/indigo/lib/libtf2.so
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: /opt/ros/indigo/lib/libroscpp.so
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: /opt/ros/indigo/lib/libxmlrpcpp.so
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: /opt/ros/indigo/lib/libtf2.so
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: /opt/ros/indigo/lib/libroscpp_serialization.so
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: /opt/ros/indigo/lib/librosconsole.so
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: /opt/ros/indigo/lib/librosconsole_log4cxx.so
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: /opt/ros/indigo/lib/librosconsole_backend_interface.so
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: /usr/lib/liblog4cxx.so
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: /opt/ros/indigo/lib/libxmlrpcpp.so
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: /opt/ros/indigo/lib/libroscpp_serialization.so
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: /opt/ros/indigo/lib/librostime.so
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: /opt/ros/indigo/lib/libcpp_common.so
@@ -225,7 +303,7 @@ sim_node_EXTERNAL_OBJECTS =
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: /usr/lib/x86_64-linux-gnu/libGL.so
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: /home/ryan/sources/opencv/opencv-3.0.0/build/../3rdparty/ippicv/unpack/ippicv_lnx/lib/intel64/libippicv.a
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node: simulator/CMakeFiles/sim_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable /home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib/simulator/sim_node"
 	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sim_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -235,6 +313,9 @@ simulator/CMakeFiles/sim_node.dir/build: /home/ryan/GitHub_WorkSpace/dataGenerat
 
 simulator/CMakeFiles/sim_node.dir/requires: simulator/CMakeFiles/sim_node.dir/src/node.cpp.o.requires
 simulator/CMakeFiles/sim_node.dir/requires: simulator/CMakeFiles/sim_node.dir/src/Sim.cpp.o.requires
+simulator/CMakeFiles/sim_node.dir/requires: simulator/CMakeFiles/sim_node.dir/src/PubManager.cpp.o.requires
+simulator/CMakeFiles/sim_node.dir/requires: simulator/CMakeFiles/sim_node.dir/src/Map.cpp.o.requires
+simulator/CMakeFiles/sim_node.dir/requires: simulator/CMakeFiles/sim_node.dir/src/Path.cpp.o.requires
 
 .PHONY : simulator/CMakeFiles/sim_node.dir/requires
 

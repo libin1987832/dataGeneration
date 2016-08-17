@@ -6,7 +6,7 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs(gtest)
 subdirs(shared_files)
-subdirs(motion_estimation)
-subdirs(blackbox_matcher)
+subdirs(matcher)
 subdirs(simulator)
-subdirs(sequence_manager)
+subdirs(menu)
+subdirs(te)

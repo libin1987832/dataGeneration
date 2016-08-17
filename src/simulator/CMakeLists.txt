@@ -19,10 +19,6 @@ find_package(catkin REQUIRED COMPONENTS
 	nav_msgs
 	shared_files
 	pcl_ros
-	blackbox_matcher
-	#odometry
-#	image_transport
-#	cv_bridge
 )
 
 ## System dependencies are found with CMake's conventions
@@ -76,8 +72,9 @@ find_package(OpenCV REQUIRED)
 ## Generate actions in the 'action' folder
 add_action_files(
   FILES
-  newSimulation.action
-	configSimulation.action
+	genData.action
+ # newSimulation.action
+	#configSimulation.action
 )
 
 ## Generate added messages and services with any dependencies listed here
@@ -137,8 +134,6 @@ catkin_package(
 	nav_msgs
 	pcl_ros
 	shared_files
-	blackbox_matcher
-	#odometry
 #  DEPENDS system_lib
 )
 
@@ -156,7 +151,7 @@ include_directories(
 	include
 )
 
-set(Source_Files src/node.cpp src/Sim.cpp)
+set(Source_Files src/node.cpp src/Sim.cpp src/PubManager.cpp src/Map.cpp src/Path.cpp)
 
 #set(Sources_real src/real_time_node.cpp include/real_time/real_time_manager.h src/real_time_manager.cpp)
 ## Declare a C++ library

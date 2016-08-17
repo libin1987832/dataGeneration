@@ -1,8 +1,0 @@
-#goal definition
-std_msgs/Empty fool
----
-#result definition
-std_msgs/Empty foo
----
-#feedback
-std_msgs/Empty fooo

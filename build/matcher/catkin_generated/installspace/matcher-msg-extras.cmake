@@ -1,0 +1,2 @@
+set(matcher_MESSAGE_FILES "msg/configMatchAction.msg;msg/configMatchActionGoal.msg;msg/configMatchActionResult.msg;msg/configMatchActionFeedback.msg;msg/configMatchGoal.msg;msg/configMatchResult.msg;msg/configMatchFeedback.msg;msg/saveMatchesAction.msg;msg/saveMatchesActionGoal.msg;msg/saveMatchesActionResult.msg;msg/saveMatchesActionFeedback.msg;msg/saveMatchesGoal.msg;msg/saveMatchesResult.msg;msg/saveMatchesFeedback.msg")
+set(matcher_SERVICE_FILES "")

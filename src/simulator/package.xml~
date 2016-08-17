@@ -47,15 +47,13 @@ __________________________________________-->
 	<build_depend>OpenCV</build_depend>
 	<build_depend>shared_files</build_depend>
 	<build_depend>pcl_ros</build_depend>
-<!--	<build_depend>blackbox_matcher</build_depend>
-	<build_depend>odometry</build_depend>-->
+<!--	<build_depend>odometry</build_depend>-->
 
 	<run_depend>pcl_ros</run_depend>
   <run_depend>Boost</run_depend>
 	<run_depend>OpenCV</run_depend>
 	<run_depend>shared_files</run_depend>
-<!--	<run_depend>blackbox_matcher</run_depend>
-	<run_depend>odometry</run_depend>-->
+<!--	<run_depend>odometry</run_depend>-->
 
 
 <!-- Action Libraries and Messages 

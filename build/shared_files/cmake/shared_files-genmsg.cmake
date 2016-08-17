@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "shared_files: 11 messages, 0 services")
+message(STATUS "shared_files: 5 messages, 0 services")
 
 set(MSG_I_FLAGS "-Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg;-Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg;-Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg")
 
@@ -15,19 +15,19 @@ add_custom_target(shared_files_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointEstimate.msg" NAME_WE)
+get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/SettingsTransform.msg" NAME_WE)
 add_custom_target(_shared_files_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "shared_files" "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointEstimate.msg" "std_msgs/Float32:geometry_msgs/Point32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "shared_files" "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/SettingsTransform.msg" "geometry_msgs/Quaternion:geometry_msgs/Transform:geometry_msgs/TransformStamped:geometry_msgs/Vector3:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointSet.msg" NAME_WE)
+get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/TopicNames.msg" NAME_WE)
 add_custom_target(_shared_files_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "shared_files" "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointSet.msg" "std_msgs/Int32:std_msgs/Float32:geometry_msgs/Point32:shared_files/PointEstimate"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "shared_files" "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/TopicNames.msg" "std_msgs/String"
 )
 
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/MatchingPoints.msg" NAME_WE)
+get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/TransformNames.msg" NAME_WE)
 add_custom_target(_shared_files_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "shared_files" "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/MatchingPoints.msg" "std_msgs/Float32:shared_files/PixelMatch:std_msgs/Int32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "shared_files" "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/TransformNames.msg" "std_msgs/String"
 )
 
 get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/RelativePoint.msg" NAME_WE)
@@ -35,39 +35,9 @@ add_custom_target(_shared_files_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "shared_files" "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/RelativePoint.msg" "geometry_msgs/Point:std_msgs/Int32"
 )
 
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/TransformNames.msg" NAME_WE)
-add_custom_target(_shared_files_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "shared_files" "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/TransformNames.msg" "std_msgs/String"
-)
-
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/TopicNames.msg" NAME_WE)
-add_custom_target(_shared_files_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "shared_files" "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/TopicNames.msg" "std_msgs/String"
-)
-
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/FrameEstimate.msg" NAME_WE)
-add_custom_target(_shared_files_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "shared_files" "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/FrameEstimate.msg" "std_msgs/Int32:geometry_msgs/Point32:shared_files/PointSet:std_msgs/Float32:shared_files/PointEstimate"
-)
-
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/SettingsTransform.msg" NAME_WE)
-add_custom_target(_shared_files_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "shared_files" "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/SettingsTransform.msg" "geometry_msgs/Quaternion:geometry_msgs/Transform:geometry_msgs/TransformStamped:geometry_msgs/Vector3:std_msgs/Header"
-)
-
 get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/RelativeFrame.msg" NAME_WE)
 add_custom_target(_shared_files_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "shared_files" "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/RelativeFrame.msg" "std_msgs/Int32:geometry_msgs/Point:shared_files/RelativePoint"
-)
-
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PixelMatch.msg" NAME_WE)
-add_custom_target(_shared_files_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "shared_files" "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PixelMatch.msg" "std_msgs/Float32"
-)
-
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/MatchFrame.msg" NAME_WE)
-add_custom_target(_shared_files_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "shared_files" "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/MatchFrame.msg" "std_msgs/Float32:std_msgs/Int32:shared_files/PixelMatch:shared_files/MatchingPoints"
 )
 
 #
@@ -77,21 +47,21 @@ add_custom_target(_shared_files_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/TopicNames.msg"
+  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/SettingsTransform.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/shared_files
+)
+_generate_msg_cpp(shared_files
+  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/TopicNames.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/shared_files
 )
 _generate_msg_cpp(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointSet.msg"
+  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/TransformNames.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point32.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointEstimate.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/shared_files
-)
-_generate_msg_cpp(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/MatchingPoints.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PixelMatch.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/shared_files
 )
 _generate_msg_cpp(shared_files
@@ -101,45 +71,9 @@ _generate_msg_cpp(shared_files
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/shared_files
 )
 _generate_msg_cpp(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/TransformNames.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/String.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/shared_files
-)
-_generate_msg_cpp(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointEstimate.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/shared_files
-)
-_generate_msg_cpp(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/FrameEstimate.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point32.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointSet.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointEstimate.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/shared_files
-)
-_generate_msg_cpp(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/SettingsTransform.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/shared_files
-)
-_generate_msg_cpp(shared_files
   "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/RelativeFrame.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/RelativePoint.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/shared_files
-)
-_generate_msg_cpp(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PixelMatch.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/shared_files
-)
-_generate_msg_cpp(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/MatchFrame.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PixelMatch.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/MatchingPoints.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/shared_files
 )
 
@@ -157,27 +91,15 @@ add_custom_target(shared_files_generate_messages_cpp
 add_dependencies(shared_files_generate_messages shared_files_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointEstimate.msg" NAME_WE)
+get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/SettingsTransform.msg" NAME_WE)
 add_dependencies(shared_files_generate_messages_cpp _shared_files_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointSet.msg" NAME_WE)
+get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/TopicNames.msg" NAME_WE)
 add_dependencies(shared_files_generate_messages_cpp _shared_files_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/MatchingPoints.msg" NAME_WE)
+get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/TransformNames.msg" NAME_WE)
 add_dependencies(shared_files_generate_messages_cpp _shared_files_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/RelativePoint.msg" NAME_WE)
 add_dependencies(shared_files_generate_messages_cpp _shared_files_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/TransformNames.msg" NAME_WE)
-add_dependencies(shared_files_generate_messages_cpp _shared_files_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/TopicNames.msg" NAME_WE)
-add_dependencies(shared_files_generate_messages_cpp _shared_files_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/FrameEstimate.msg" NAME_WE)
-add_dependencies(shared_files_generate_messages_cpp _shared_files_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/SettingsTransform.msg" NAME_WE)
-add_dependencies(shared_files_generate_messages_cpp _shared_files_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/RelativeFrame.msg" NAME_WE)
-add_dependencies(shared_files_generate_messages_cpp _shared_files_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PixelMatch.msg" NAME_WE)
-add_dependencies(shared_files_generate_messages_cpp _shared_files_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/MatchFrame.msg" NAME_WE)
 add_dependencies(shared_files_generate_messages_cpp _shared_files_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -190,21 +112,21 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS shared_files_generate_messages_cpp)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/TopicNames.msg"
+  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/SettingsTransform.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/shared_files
+)
+_generate_msg_lisp(shared_files
+  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/TopicNames.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/shared_files
 )
 _generate_msg_lisp(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointSet.msg"
+  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/TransformNames.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point32.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointEstimate.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/shared_files
-)
-_generate_msg_lisp(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/MatchingPoints.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PixelMatch.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/shared_files
 )
 _generate_msg_lisp(shared_files
@@ -214,45 +136,9 @@ _generate_msg_lisp(shared_files
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/shared_files
 )
 _generate_msg_lisp(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/TransformNames.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/String.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/shared_files
-)
-_generate_msg_lisp(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointEstimate.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/shared_files
-)
-_generate_msg_lisp(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/FrameEstimate.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point32.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointSet.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointEstimate.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/shared_files
-)
-_generate_msg_lisp(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/SettingsTransform.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/shared_files
-)
-_generate_msg_lisp(shared_files
   "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/RelativeFrame.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/RelativePoint.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/shared_files
-)
-_generate_msg_lisp(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PixelMatch.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/shared_files
-)
-_generate_msg_lisp(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/MatchFrame.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PixelMatch.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/MatchingPoints.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/shared_files
 )
 
@@ -270,27 +156,15 @@ add_custom_target(shared_files_generate_messages_lisp
 add_dependencies(shared_files_generate_messages shared_files_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointEstimate.msg" NAME_WE)
+get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/SettingsTransform.msg" NAME_WE)
 add_dependencies(shared_files_generate_messages_lisp _shared_files_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointSet.msg" NAME_WE)
+get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/TopicNames.msg" NAME_WE)
 add_dependencies(shared_files_generate_messages_lisp _shared_files_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/MatchingPoints.msg" NAME_WE)
+get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/TransformNames.msg" NAME_WE)
 add_dependencies(shared_files_generate_messages_lisp _shared_files_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/RelativePoint.msg" NAME_WE)
 add_dependencies(shared_files_generate_messages_lisp _shared_files_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/TransformNames.msg" NAME_WE)
-add_dependencies(shared_files_generate_messages_lisp _shared_files_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/TopicNames.msg" NAME_WE)
-add_dependencies(shared_files_generate_messages_lisp _shared_files_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/FrameEstimate.msg" NAME_WE)
-add_dependencies(shared_files_generate_messages_lisp _shared_files_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/SettingsTransform.msg" NAME_WE)
-add_dependencies(shared_files_generate_messages_lisp _shared_files_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/RelativeFrame.msg" NAME_WE)
-add_dependencies(shared_files_generate_messages_lisp _shared_files_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PixelMatch.msg" NAME_WE)
-add_dependencies(shared_files_generate_messages_lisp _shared_files_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/MatchFrame.msg" NAME_WE)
 add_dependencies(shared_files_generate_messages_lisp _shared_files_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -303,21 +177,21 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS shared_files_generate_messages_lisp
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/TopicNames.msg"
+  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/SettingsTransform.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/shared_files
+)
+_generate_msg_py(shared_files
+  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/TopicNames.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/shared_files
 )
 _generate_msg_py(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointSet.msg"
+  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/TransformNames.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point32.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointEstimate.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/shared_files
-)
-_generate_msg_py(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/MatchingPoints.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PixelMatch.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/String.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/shared_files
 )
 _generate_msg_py(shared_files
@@ -327,45 +201,9 @@ _generate_msg_py(shared_files
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/shared_files
 )
 _generate_msg_py(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/TransformNames.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/String.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/shared_files
-)
-_generate_msg_py(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointEstimate.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/shared_files
-)
-_generate_msg_py(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/FrameEstimate.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point32.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointSet.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointEstimate.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/shared_files
-)
-_generate_msg_py(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/SettingsTransform.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/shared_files
-)
-_generate_msg_py(shared_files
   "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/RelativeFrame.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/RelativePoint.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/shared_files
-)
-_generate_msg_py(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PixelMatch.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/shared_files
-)
-_generate_msg_py(shared_files
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/MatchFrame.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PixelMatch.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/MatchingPoints.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/shared_files
 )
 
@@ -383,27 +221,15 @@ add_custom_target(shared_files_generate_messages_py
 add_dependencies(shared_files_generate_messages shared_files_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointEstimate.msg" NAME_WE)
+get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/SettingsTransform.msg" NAME_WE)
 add_dependencies(shared_files_generate_messages_py _shared_files_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointSet.msg" NAME_WE)
+get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/TopicNames.msg" NAME_WE)
 add_dependencies(shared_files_generate_messages_py _shared_files_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/MatchingPoints.msg" NAME_WE)
+get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/TransformNames.msg" NAME_WE)
 add_dependencies(shared_files_generate_messages_py _shared_files_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/RelativePoint.msg" NAME_WE)
 add_dependencies(shared_files_generate_messages_py _shared_files_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/TransformNames.msg" NAME_WE)
-add_dependencies(shared_files_generate_messages_py _shared_files_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/TopicNames.msg" NAME_WE)
-add_dependencies(shared_files_generate_messages_py _shared_files_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/FrameEstimate.msg" NAME_WE)
-add_dependencies(shared_files_generate_messages_py _shared_files_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/SettingsTransform.msg" NAME_WE)
-add_dependencies(shared_files_generate_messages_py _shared_files_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/RelativeFrame.msg" NAME_WE)
-add_dependencies(shared_files_generate_messages_py _shared_files_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PixelMatch.msg" NAME_WE)
-add_dependencies(shared_files_generate_messages_py _shared_files_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/MatchFrame.msg" NAME_WE)
 add_dependencies(shared_files_generate_messages_py _shared_files_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

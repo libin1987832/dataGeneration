@@ -53,179 +53,96 @@ CMAKE_BINARY_DIR = /home/ryan/GitHub_WorkSpace/dataGeneration/build
 # Include the progress variables for this target.
 include simulator/CMakeFiles/simulator_generate_messages_cpp.dir/progress.make
 
-simulator/CMakeFiles/simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationResult.h
-simulator/CMakeFiles/simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationFeedback.h
-simulator/CMakeFiles/simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationGoal.h
-simulator/CMakeFiles/simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionFeedback.h
-simulator/CMakeFiles/simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionGoal.h
-simulator/CMakeFiles/simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationGoal.h
-simulator/CMakeFiles/simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationAction.h
-simulator/CMakeFiles/simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationFeedback.h
-simulator/CMakeFiles/simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionResult.h
-simulator/CMakeFiles/simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationResult.h
-simulator/CMakeFiles/simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionFeedback.h
-simulator/CMakeFiles/simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationAction.h
-simulator/CMakeFiles/simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionGoal.h
-simulator/CMakeFiles/simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionResult.h
+simulator/CMakeFiles/simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionFeedback.h
+simulator/CMakeFiles/simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataGoal.h
+simulator/CMakeFiles/simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionGoal.h
+simulator/CMakeFiles/simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataResult.h
+simulator/CMakeFiles/simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataFeedback.h
+simulator/CMakeFiles/simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionResult.h
+simulator/CMakeFiles/simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataAction.h
 
 
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationResult.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationResult.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationResult.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationResult.h: /opt/ros/indigo/share/std_msgs/msg/Empty.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationResult.h: /opt/ros/indigo/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from simulator/newSimulationResult.msg"
-	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationResult.msg -Isimulator:/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -p simulator -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator -e /opt/ros/indigo/share/gencpp/cmake/..
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionFeedback.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionFeedback.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataActionFeedback.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionFeedback.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataFeedback.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionFeedback.h: /opt/ros/indigo/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionFeedback.h: /opt/ros/indigo/share/actionlib_msgs/msg/GoalID.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionFeedback.h: /opt/ros/indigo/share/std_msgs/msg/Header.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionFeedback.h: /opt/ros/indigo/share/std_msgs/msg/Empty.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionFeedback.h: /opt/ros/indigo/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from simulator/genDataActionFeedback.msg"
+	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataActionFeedback.msg -Isimulator:/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -p simulator -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationFeedback.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationFeedback.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationFeedback.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationFeedback.h: /opt/ros/indigo/share/std_msgs/msg/Empty.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationFeedback.h: /opt/ros/indigo/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from simulator/newSimulationFeedback.msg"
-	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationFeedback.msg -Isimulator:/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -p simulator -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator -e /opt/ros/indigo/share/gencpp/cmake/..
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataGoal.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataGoal.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataGoal.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataGoal.h: /opt/ros/indigo/share/std_msgs/msg/String.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataGoal.h: /opt/ros/indigo/share/std_msgs/msg/Bool.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataGoal.h: /opt/ros/indigo/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from simulator/genDataGoal.msg"
+	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataGoal.msg -Isimulator:/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -p simulator -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationGoal.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationGoal.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationGoal.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationGoal.h: /opt/ros/indigo/share/std_msgs/msg/String.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationGoal.h: /opt/ros/indigo/share/std_msgs/msg/Bool.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationGoal.h: /opt/ros/indigo/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from simulator/configSimulationGoal.msg"
-	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationGoal.msg -Isimulator:/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -p simulator -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator -e /opt/ros/indigo/share/gencpp/cmake/..
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionGoal.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionGoal.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataActionGoal.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionGoal.h: /opt/ros/indigo/share/actionlib_msgs/msg/GoalID.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionGoal.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataGoal.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionGoal.h: /opt/ros/indigo/share/std_msgs/msg/Header.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionGoal.h: /opt/ros/indigo/share/std_msgs/msg/Bool.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionGoal.h: /opt/ros/indigo/share/std_msgs/msg/String.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionGoal.h: /opt/ros/indigo/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from simulator/genDataActionGoal.msg"
+	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataActionGoal.msg -Isimulator:/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -p simulator -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionFeedback.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionFeedback.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationActionFeedback.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionFeedback.h: /opt/ros/indigo/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionFeedback.h: /opt/ros/indigo/share/actionlib_msgs/msg/GoalID.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionFeedback.h: /opt/ros/indigo/share/std_msgs/msg/Empty.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionFeedback.h: /opt/ros/indigo/share/std_msgs/msg/Header.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionFeedback.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationFeedback.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionFeedback.h: /opt/ros/indigo/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from simulator/configSimulationActionFeedback.msg"
-	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationActionFeedback.msg -Isimulator:/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -p simulator -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator -e /opt/ros/indigo/share/gencpp/cmake/..
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataResult.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataResult.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataResult.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataResult.h: /opt/ros/indigo/share/std_msgs/msg/Empty.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataResult.h: /opt/ros/indigo/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from simulator/genDataResult.msg"
+	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataResult.msg -Isimulator:/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -p simulator -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionGoal.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionGoal.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationActionGoal.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionGoal.h: /opt/ros/indigo/share/actionlib_msgs/msg/GoalID.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionGoal.h: /opt/ros/indigo/share/std_msgs/msg/String.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionGoal.h: /opt/ros/indigo/share/std_msgs/msg/Header.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionGoal.h: /opt/ros/indigo/share/std_msgs/msg/Bool.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionGoal.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationGoal.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionGoal.h: /opt/ros/indigo/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from simulator/configSimulationActionGoal.msg"
-	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationActionGoal.msg -Isimulator:/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -p simulator -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator -e /opt/ros/indigo/share/gencpp/cmake/..
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataFeedback.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataFeedback.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataFeedback.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataFeedback.h: /opt/ros/indigo/share/std_msgs/msg/Empty.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataFeedback.h: /opt/ros/indigo/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from simulator/genDataFeedback.msg"
+	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataFeedback.msg -Isimulator:/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -p simulator -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationGoal.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationGoal.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationGoal.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationGoal.h: /opt/ros/indigo/share/std_msgs/msg/Empty.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationGoal.h: /opt/ros/indigo/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from simulator/newSimulationGoal.msg"
-	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationGoal.msg -Isimulator:/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -p simulator -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator -e /opt/ros/indigo/share/gencpp/cmake/..
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionResult.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionResult.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataActionResult.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionResult.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataResult.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionResult.h: /opt/ros/indigo/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionResult.h: /opt/ros/indigo/share/actionlib_msgs/msg/GoalID.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionResult.h: /opt/ros/indigo/share/std_msgs/msg/Header.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionResult.h: /opt/ros/indigo/share/std_msgs/msg/Empty.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionResult.h: /opt/ros/indigo/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from simulator/genDataActionResult.msg"
+	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataActionResult.msg -Isimulator:/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -p simulator -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationAction.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationAction.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationAction.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationAction.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationResult.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationAction.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationGoal.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationAction.h: /opt/ros/indigo/share/actionlib_msgs/msg/GoalID.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationAction.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationActionFeedback.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationAction.h: /opt/ros/indigo/share/std_msgs/msg/Header.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationAction.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationActionResult.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationAction.h: /opt/ros/indigo/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationAction.h: /opt/ros/indigo/share/std_msgs/msg/Empty.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationAction.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationFeedback.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationAction.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationActionGoal.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationAction.h: /opt/ros/indigo/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from simulator/newSimulationAction.msg"
-	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationAction.msg -Isimulator:/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -p simulator -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationFeedback.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationFeedback.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationFeedback.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationFeedback.h: /opt/ros/indigo/share/std_msgs/msg/Empty.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationFeedback.h: /opt/ros/indigo/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from simulator/configSimulationFeedback.msg"
-	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationFeedback.msg -Isimulator:/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -p simulator -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionResult.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionResult.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationActionResult.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionResult.h: /opt/ros/indigo/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionResult.h: /opt/ros/indigo/share/actionlib_msgs/msg/GoalID.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionResult.h: /opt/ros/indigo/share/std_msgs/msg/Empty.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionResult.h: /opt/ros/indigo/share/std_msgs/msg/Header.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionResult.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationResult.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionResult.h: /opt/ros/indigo/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from simulator/newSimulationActionResult.msg"
-	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationActionResult.msg -Isimulator:/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -p simulator -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationResult.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationResult.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationResult.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationResult.h: /opt/ros/indigo/share/std_msgs/msg/Empty.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationResult.h: /opt/ros/indigo/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from simulator/configSimulationResult.msg"
-	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationResult.msg -Isimulator:/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -p simulator -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionFeedback.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionFeedback.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationActionFeedback.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionFeedback.h: /opt/ros/indigo/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionFeedback.h: /opt/ros/indigo/share/actionlib_msgs/msg/GoalID.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionFeedback.h: /opt/ros/indigo/share/std_msgs/msg/Empty.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionFeedback.h: /opt/ros/indigo/share/std_msgs/msg/Header.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionFeedback.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationFeedback.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionFeedback.h: /opt/ros/indigo/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from simulator/newSimulationActionFeedback.msg"
-	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationActionFeedback.msg -Isimulator:/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -p simulator -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationAction.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationAction.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationAction.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationAction.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationActionResult.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationAction.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationGoal.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationAction.h: /opt/ros/indigo/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationAction.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationActionGoal.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationAction.h: /opt/ros/indigo/share/actionlib_msgs/msg/GoalID.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationAction.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationFeedback.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationAction.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationResult.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationAction.h: /opt/ros/indigo/share/std_msgs/msg/Header.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationAction.h: /opt/ros/indigo/share/std_msgs/msg/Empty.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationAction.h: /opt/ros/indigo/share/std_msgs/msg/Bool.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationAction.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationActionFeedback.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationAction.h: /opt/ros/indigo/share/std_msgs/msg/String.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationAction.h: /opt/ros/indigo/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from simulator/configSimulationAction.msg"
-	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationAction.msg -Isimulator:/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -p simulator -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionGoal.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionGoal.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationActionGoal.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionGoal.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationGoal.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionGoal.h: /opt/ros/indigo/share/actionlib_msgs/msg/GoalID.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionGoal.h: /opt/ros/indigo/share/std_msgs/msg/Header.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionGoal.h: /opt/ros/indigo/share/std_msgs/msg/Empty.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionGoal.h: /opt/ros/indigo/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating C++ code from simulator/newSimulationActionGoal.msg"
-	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationActionGoal.msg -Isimulator:/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -p simulator -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionResult.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionResult.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationActionResult.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionResult.h: /opt/ros/indigo/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionResult.h: /opt/ros/indigo/share/actionlib_msgs/msg/GoalID.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionResult.h: /opt/ros/indigo/share/std_msgs/msg/Empty.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionResult.h: /opt/ros/indigo/share/std_msgs/msg/Header.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionResult.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationResult.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionResult.h: /opt/ros/indigo/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating C++ code from simulator/configSimulationActionResult.msg"
-	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationActionResult.msg -Isimulator:/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -p simulator -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator -e /opt/ros/indigo/share/gencpp/cmake/..
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataAction.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataAction.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataAction.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataAction.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataGoal.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataAction.h: /opt/ros/indigo/share/std_msgs/msg/String.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataAction.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataActionFeedback.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataAction.h: /opt/ros/indigo/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataAction.h: /opt/ros/indigo/share/actionlib_msgs/msg/GoalID.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataAction.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataResult.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataAction.h: /opt/ros/indigo/share/std_msgs/msg/Header.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataAction.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataActionResult.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataAction.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataFeedback.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataAction.h: /opt/ros/indigo/share/std_msgs/msg/Empty.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataAction.h: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataActionGoal.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataAction.h: /opt/ros/indigo/share/std_msgs/msg/Bool.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataAction.h: /opt/ros/indigo/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from simulator/genDataAction.msg"
+	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/simulator && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataAction.msg -Isimulator:/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -p simulator -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator -e /opt/ros/indigo/share/gencpp/cmake/..
 
 simulator_generate_messages_cpp: simulator/CMakeFiles/simulator_generate_messages_cpp
-simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationResult.h
-simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationFeedback.h
-simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationGoal.h
-simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionFeedback.h
-simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionGoal.h
-simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationGoal.h
-simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationAction.h
-simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationFeedback.h
-simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionResult.h
-simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationResult.h
-simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionFeedback.h
-simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationAction.h
-simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionGoal.h
-simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionResult.h
+simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionFeedback.h
+simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataGoal.h
+simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionGoal.h
+simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataResult.h
+simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataFeedback.h
+simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionResult.h
+simulator_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataAction.h
 simulator_generate_messages_cpp: simulator/CMakeFiles/simulator_generate_messages_cpp.dir/build.make
 
 .PHONY : simulator_generate_messages_cpp

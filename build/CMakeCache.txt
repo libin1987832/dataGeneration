@@ -201,117 +201,6 @@ EMPY_EXECUTABLE:FILEPATH=/usr/bin/empy
 //Empy script
 EMPY_SCRIPT:STRING=/usr/bin/empy
 
-//Path to a library.
-G2O_CLI_LIBRARY:FILEPATH=/usr/local/lib/libg2o_cli.so
-
-//Path to a library.
-G2O_CLI_LIBRARY_DEBUG:FILEPATH=G2O_CLI_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a library.
-G2O_CORE_LIBRARY:FILEPATH=/usr/local/lib/libg2o_core.so
-
-//Path to a library.
-G2O_CORE_LIBRARY_DEBUG:FILEPATH=G2O_CORE_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a file.
-G2O_INCLUDE_DIR:PATH=/usr/local/include
-
-//Path to a library.
-G2O_SOLVER_CHOLMOD:FILEPATH=/usr/local/lib/libg2o_solver_cholmod.so
-
-//Path to a library.
-G2O_SOLVER_CHOLMOD_DEBUG:FILEPATH=G2O_SOLVER_CHOLMOD_DEBUG-NOTFOUND
-
-//Path to a library.
-G2O_SOLVER_CSPARSE:FILEPATH=/usr/local/lib/libg2o_solver_csparse.so
-
-//Path to a library.
-G2O_SOLVER_CSPARSE_DEBUG:FILEPATH=G2O_SOLVER_CSPARSE_DEBUG-NOTFOUND
-
-//Path to a library.
-G2O_SOLVER_CSPARSE_EXTENSION:FILEPATH=/usr/local/lib/libg2o_csparse_extension.so
-
-//Path to a library.
-G2O_SOLVER_CSPARSE_EXTENSION_DEBUG:FILEPATH=G2O_SOLVER_CSPARSE_EXTENSION_DEBUG-NOTFOUND
-
-//Path to a library.
-G2O_SOLVER_DENSE:FILEPATH=/usr/local/lib/libg2o_solver_dense.so
-
-//Path to a library.
-G2O_SOLVER_DENSE_DEBUG:FILEPATH=G2O_SOLVER_DENSE_DEBUG-NOTFOUND
-
-//Path to a library.
-G2O_SOLVER_EIGEN:FILEPATH=/usr/local/lib/libg2o_solver_eigen.so
-
-//Path to a library.
-G2O_SOLVER_EIGEN_DEBUG:FILEPATH=G2O_SOLVER_EIGEN_DEBUG-NOTFOUND
-
-//Path to a library.
-G2O_SOLVER_PCG:FILEPATH=/usr/local/lib/libg2o_solver_pcg.so
-
-//Path to a library.
-G2O_SOLVER_PCG_DEBUG:FILEPATH=G2O_SOLVER_PCG_DEBUG-NOTFOUND
-
-//Path to a library.
-G2O_SOLVER_SLAM2D_LINEAR:FILEPATH=/usr/local/lib/libg2o_solver_slam2d_linear.so
-
-//Path to a library.
-G2O_SOLVER_SLAM2D_LINEAR_DEBUG:FILEPATH=G2O_SOLVER_SLAM2D_LINEAR_DEBUG-NOTFOUND
-
-//Path to a library.
-G2O_SOLVER_STRUCTURE_ONLY:FILEPATH=/usr/local/lib/libg2o_solver_structure_only.so
-
-//Path to a library.
-G2O_SOLVER_STRUCTURE_ONLY_DEBUG:FILEPATH=G2O_SOLVER_STRUCTURE_ONLY_DEBUG-NOTFOUND
-
-//Path to a library.
-G2O_STUFF_LIBRARY:FILEPATH=/usr/local/lib/libg2o_stuff.so
-
-//Path to a library.
-G2O_STUFF_LIBRARY_DEBUG:FILEPATH=G2O_STUFF_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a library.
-G2O_TYPES_DATA:FILEPATH=/usr/local/lib/libg2o_types_data.so
-
-//Path to a library.
-G2O_TYPES_DATA_DEBUG:FILEPATH=G2O_TYPES_DATA_DEBUG-NOTFOUND
-
-//Path to a library.
-G2O_TYPES_ICP:FILEPATH=/usr/local/lib/libg2o_types_icp.so
-
-//Path to a library.
-G2O_TYPES_ICP_DEBUG:FILEPATH=G2O_TYPES_ICP_DEBUG-NOTFOUND
-
-//Path to a library.
-G2O_TYPES_SBA:FILEPATH=/usr/local/lib/libg2o_types_sba.so
-
-//Path to a library.
-G2O_TYPES_SBA_DEBUG:FILEPATH=G2O_TYPES_SBA_DEBUG-NOTFOUND
-
-//Path to a library.
-G2O_TYPES_SCLAM2D:FILEPATH=/usr/local/lib/libg2o_types_sclam2d.so
-
-//Path to a library.
-G2O_TYPES_SCLAM2D_DEBUG:FILEPATH=G2O_TYPES_SCLAM2D_DEBUG-NOTFOUND
-
-//Path to a library.
-G2O_TYPES_SIM3:FILEPATH=/usr/local/lib/libg2o_types_sim3.so
-
-//Path to a library.
-G2O_TYPES_SIM3_DEBUG:FILEPATH=G2O_TYPES_SIM3_DEBUG-NOTFOUND
-
-//Path to a library.
-G2O_TYPES_SLAM2D:FILEPATH=/usr/local/lib/libg2o_types_slam2d.so
-
-//Path to a library.
-G2O_TYPES_SLAM2D_DEBUG:FILEPATH=G2O_TYPES_SLAM2D_DEBUG-NOTFOUND
-
-//Path to a library.
-G2O_TYPES_SLAM3D:FILEPATH=/usr/local/lib/libg2o_types_slam3d.so
-
-//Path to a library.
-G2O_TYPES_SLAM3D_DEBUG:FILEPATH=G2O_TYPES_SLAM3D_DEBUG-NOTFOUND
-
 //Path to a file.
 GTEST_INCLUDE_DIR:PATH=/usr/include
 
@@ -392,15 +281,6 @@ actionlib_DIR:PATH=/opt/ros/indigo/share/actionlib/cmake
 //The directory containing a CMake configuration file for actionlib_msgs.
 actionlib_msgs_DIR:PATH=/opt/ros/indigo/share/actionlib_msgs/cmake
 
-//Value Computed by CMake
-blackbox_matcher_BINARY_DIR:STATIC=/home/ryan/GitHub_WorkSpace/dataGeneration/build/blackbox_matcher
-
-//The directory containing a CMake configuration file for blackbox_matcher.
-blackbox_matcher_DIR:PATH=/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/blackbox_matcher/cmake
-
-//Value Computed by CMake
-blackbox_matcher_SOURCE_DIR:STATIC=/home/ryan/GitHub_WorkSpace/dataGeneration/src/blackbox_matcher
-
 //The directory containing a CMake configuration file for bond.
 bond_DIR:PATH=/opt/ros/indigo/share/bond/cmake
 
@@ -460,7 +340,19 @@ gtest_force_shared_crt:BOOL=OFF
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/indigo/lib/libtopic_tools.so
+lib:FILEPATH=/opt/ros/indigo/lib/libtf.so
+
+//Value Computed by CMake
+matcher_BINARY_DIR:STATIC=/home/ryan/GitHub_WorkSpace/dataGeneration/build/matcher
+
+//Value Computed by CMake
+matcher_SOURCE_DIR:STATIC=/home/ryan/GitHub_WorkSpace/dataGeneration/src/matcher
+
+//Value Computed by CMake
+menu_BINARY_DIR:STATIC=/home/ryan/GitHub_WorkSpace/dataGeneration/build/menu
+
+//Value Computed by CMake
+menu_SOURCE_DIR:STATIC=/home/ryan/GitHub_WorkSpace/dataGeneration/src/menu
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/indigo/share/message_filters/cmake
@@ -470,15 +362,6 @@ message_generation_DIR:PATH=/opt/ros/indigo/share/message_generation/cmake
 
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/indigo/share/message_runtime/cmake
-
-//Value Computed by CMake
-motion_estimation_BINARY_DIR:STATIC=/home/ryan/GitHub_WorkSpace/dataGeneration/build/motion_estimation
-
-//The directory containing a CMake configuration file for motion_estimation.
-motion_estimation_DIR:PATH=/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/motion_estimation/cmake
-
-//Value Computed by CMake
-motion_estimation_SOURCE_DIR:STATIC=/home/ryan/GitHub_WorkSpace/dataGeneration/src/motion_estimation
 
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/indigo/share/nav_msgs/cmake
@@ -538,12 +421,6 @@ rostime_DIR:PATH=/opt/ros/indigo/share/rostime/cmake
 sensor_msgs_DIR:PATH=/opt/ros/indigo/share/sensor_msgs/cmake
 
 //Value Computed by CMake
-sequence_manager_BINARY_DIR:STATIC=/home/ryan/GitHub_WorkSpace/dataGeneration/build/sequence_manager
-
-//Value Computed by CMake
-sequence_manager_SOURCE_DIR:STATIC=/home/ryan/GitHub_WorkSpace/dataGeneration/src/sequence_manager
-
-//Value Computed by CMake
 shared_files_BINARY_DIR:STATIC=/home/ryan/GitHub_WorkSpace/dataGeneration/build/shared_files
 
 //The directory containing a CMake configuration file for shared_files.
@@ -566,6 +443,12 @@ smclib_DIR:PATH=/opt/ros/indigo/share/smclib/cmake
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/indigo/share/std_msgs/cmake
+
+//Value Computed by CMake
+te_BINARY_DIR:STATIC=/home/ryan/GitHub_WorkSpace/dataGeneration/build/te
+
+//Value Computed by CMake
+te_SOURCE_DIR:STATIC=/home/ryan/GitHub_WorkSpace/dataGeneration/src/te
 
 //The directory containing a CMake configuration file for tf2.
 tf2_DIR:PATH=/opt/ros/indigo/share/tf2/cmake

@@ -26,19 +26,19 @@ struct RelativeFrame_
   typedef RelativeFrame_<ContainerAllocator> Type;
 
   RelativeFrame_()
-    : PointCloudRelative()
+    : Relative()
     , FrameNumber()  {
     }
   RelativeFrame_(const ContainerAllocator& _alloc)
-    : PointCloudRelative(_alloc)
+    : Relative(_alloc)
     , FrameNumber(_alloc)  {
   (void)_alloc;
     }
 
 
 
-   typedef std::vector< ::shared_files::RelativePoint_<ContainerAllocator> , typename ContainerAllocator::template rebind< ::shared_files::RelativePoint_<ContainerAllocator> >::other >  _PointCloudRelative_type;
-  _PointCloudRelative_type PointCloudRelative;
+   typedef std::vector< ::shared_files::RelativePoint_<ContainerAllocator> , typename ContainerAllocator::template rebind< ::shared_files::RelativePoint_<ContainerAllocator> >::other >  _Relative_type;
+  _Relative_type Relative;
 
    typedef  ::std_msgs::Int32_<ContainerAllocator>  _FrameNumber_type;
   _FrameNumber_type FrameNumber;
@@ -120,12 +120,12 @@ struct MD5Sum< ::shared_files::RelativeFrame_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "aed8a9c8614008d5571c40635b45b623";
+    return "bac4de3f205f6a8002a0371e02d737fd";
   }
 
   static const char* value(const ::shared_files::RelativeFrame_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0xaed8a9c8614008d5ULL;
-  static const uint64_t static_value2 = 0x571c40635b45b623ULL;
+  static const uint64_t static_value1 = 0xbac4de3f205f6a80ULL;
+  static const uint64_t static_value2 = 0x02a0371e02d737fdULL;
 };
 
 template<class ContainerAllocator>
@@ -144,7 +144,7 @@ struct Definition< ::shared_files::RelativeFrame_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "shared_files/RelativePoint[] PointCloudRelative\n\
+    return "shared_files/RelativePoint[] Relative\n\
 std_msgs/Int32 FrameNumber\n\
 \n\
 ================================================================================\n\
@@ -180,7 +180,7 @@ namespace serialization
   {
     template<typename Stream, typename T> inline static void allInOne(Stream& stream, T m)
     {
-      stream.next(m.PointCloudRelative);
+      stream.next(m.Relative);
       stream.next(m.FrameNumber);
     }
 
@@ -200,13 +200,13 @@ struct Printer< ::shared_files::RelativeFrame_<ContainerAllocator> >
 {
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::shared_files::RelativeFrame_<ContainerAllocator>& v)
   {
-    s << indent << "PointCloudRelative[]" << std::endl;
-    for (size_t i = 0; i < v.PointCloudRelative.size(); ++i)
+    s << indent << "Relative[]" << std::endl;
+    for (size_t i = 0; i < v.Relative.size(); ++i)
     {
-      s << indent << "  PointCloudRelative[" << i << "]: ";
+      s << indent << "  Relative[" << i << "]: ";
       s << std::endl;
       s << indent;
-      Printer< ::shared_files::RelativePoint_<ContainerAllocator> >::stream(s, indent + "    ", v.PointCloudRelative[i]);
+      Printer< ::shared_files::RelativePoint_<ContainerAllocator> >::stream(s, indent + "    ", v.Relative[i]);
     }
     s << indent << "FrameNumber: ";
     s << std::endl;

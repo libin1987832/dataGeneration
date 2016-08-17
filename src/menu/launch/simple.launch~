@@ -1,0 +1,39 @@
+<launch>
+
+	<param name="/Names/Simulator" value="/sim_node"/>
+	<param name="/Names/menu" value="/menu_node"/>
+	<param name="/Names/Matcher" value="/match_node"/>
+
+
+	<param name="/WorldSettings/Mean_Y" value="30.0" type="double"/>
+	<param name="/WorldSettings/Mean_X" value="0.0" type="double"/>
+	<param name="/WorldSettings/Mean_Z" value="0.0" type="double"/>
+	<param name="/WorldSettings/StdDev_Y" value="10.0" type="double"/>
+	<param name="/WorldSettings/StdDev_X" value="10.0" type="double"/>
+	<param name="/WorldSettings/StdDev_Z" value="10.0" type="double"/>
+
+	<param name="/WorldSettings/SeedStart" value="1" type ="int"/>
+	<param name="/WorldSettings/TotalPoints"  type ="int" value="15"/>
+	<param name="/WorldSettings/TotalMap" type="int" value ="1"/>
+
+	<param name="/PathSettings/RefreshRate" value="3" type = "double"/>
+	<param name="/PathSettings/TotalPath" type="int" value="1"/>
+	<param name="/PathSettings/TotalPoses" type="int" value="3"/>
+
+	<param name="/Options/CameraConfigDir" value="/home/ryan/GitHub_WorkSpace/data/defaultConfig.xml"/>
+	<param name="/Options/LoadCamera" value="true"/>
+	<param name="/Options/DataDir" value="/home/ryan/GitHub_WorkSpace/data/matches/matchdata.xml"/>
+	<param name="/Options/RelativeDir" value="/home/ryan/GitHub_WorkSpace/data/relative/RelativeData"/>
+
+  <param name="/OutputOptions/Generate" value="true"/>
+	<param name="/OutputOptions/Display" value="true"/>
+
+	
+	<node pkg="menu" name="menu_node" type="menu_node" output="screen"/>
+	<node pkg="simulator" name="sim_node" type="sim_node" output="screen"/>
+  <node pkg="matcher" name="match_node" type="blackbox_node" output="screen"/>	
+	<!--
+	<node pkg="motion_estimation" name="estimation_node" type="estimation_node" output="screen"/>
+	<node pkg="triangulation" name="triangulation_node" type="triangulation_node" output="screen"/>
+	<node pkg="odometry" name="odometry_node" type="odometry_node" output="screen"/>-->
+</launch>

@@ -33,33 +33,18 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/simulator/action" TYPE FILE FILES
-    "/home/ryan/GitHub_WorkSpace/dataGeneration/src/simulator/action/newSimulation.action"
-    "/home/ryan/GitHub_WorkSpace/dataGeneration/src/simulator/action/configSimulation.action"
-    )
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/simulator/action" TYPE FILE FILES "/home/ryan/GitHub_WorkSpace/dataGeneration/src/simulator/action/genData.action")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/simulator/msg" TYPE FILE FILES
-    "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationAction.msg"
-    "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationActionGoal.msg"
-    "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationActionResult.msg"
-    "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationActionFeedback.msg"
-    "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationGoal.msg"
-    "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationResult.msg"
-    "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/newSimulationFeedback.msg"
-    )
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/simulator/msg" TYPE FILE FILES
-    "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationAction.msg"
-    "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationActionGoal.msg"
-    "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationActionResult.msg"
-    "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationActionFeedback.msg"
-    "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationGoal.msg"
-    "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationResult.msg"
-    "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/configSimulationFeedback.msg"
+    "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataAction.msg"
+    "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataActionGoal.msg"
+    "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataActionResult.msg"
+    "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataActionFeedback.msg"
+    "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataGoal.msg"
+    "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataResult.msg"
+    "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/share/simulator/msg/genDataFeedback.msg"
     )
 endif()
 

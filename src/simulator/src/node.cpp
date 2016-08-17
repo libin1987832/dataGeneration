@@ -3,7 +3,6 @@
 int main(int argc, char **argv)
 {
 	ros::init(argc,argv,"real_time_node");	
-	
-	Sim manager;	
+	Sim main_;	
 	return 0;
 }

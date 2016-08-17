@@ -1,19 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/simulator_generate_messages_cpp"
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationResult.h"
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationFeedback.h"
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationGoal.h"
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionFeedback.h"
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionGoal.h"
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationGoal.h"
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationAction.h"
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationFeedback.h"
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionResult.h"
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationResult.h"
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionFeedback.h"
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationAction.h"
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/newSimulationActionGoal.h"
-  "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/configSimulationActionResult.h"
+  "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionFeedback.h"
+  "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataGoal.h"
+  "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionGoal.h"
+  "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataResult.h"
+  "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataFeedback.h"
+  "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataActionResult.h"
+  "/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/simulator/genDataAction.h"
 )
 
 # Per-language clean rules from dependency scanning.

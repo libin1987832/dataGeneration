@@ -1,8 +1,0 @@
-prefix=/home/ryan/GitHub_WorkSpace/dataGeneration/devel
-
-Name: blackbox_matcher
-Description: Description of blackbox_matcher
-Version: 0.0.0
-Cflags: -I/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include -I/home/ryan/GitHub_WorkSpace/dataGeneration/src/blackbox_matcher/include
-Libs: -L/home/ryan/GitHub_WorkSpace/dataGeneration/devel/lib 
-Requires: actionlib actionlib_msgs geometry_msgs message_generation message_runtime roscpp sensor_msgs tf2 tf2_ros tf shared_files motion_estimation

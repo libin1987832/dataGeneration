@@ -59,7 +59,16 @@ _________________________________    -->
   <run_depend>std_msgs</run_depend>
   <run_depend>geometry_msgs</run_depend>
   <run_depend>sensor_msgs</run_depend>
+<!-- TRANSFORM LIBRARIES
+_________________________________-->
 
+  <build_depend>tf2</build_depend>
+  <build_depend>tf2_ros</build_depend>
+	<build_depend>tf</build_depend>
+
+  <run_depend>tf2</run_depend>
+  <run_depend>tf2_ros</run_depend>
+	<run_depend>tf</run_depend>
 
 <!-- ROS STANDARD LIBRARIES
 ______________________________________-->

@@ -53,44 +53,37 @@ CMAKE_BINARY_DIR = /home/ryan/GitHub_WorkSpace/dataGeneration/build
 # Include the progress variables for this target.
 include shared_files/CMakeFiles/shared_files_generate_messages_cpp.dir/progress.make
 
-shared_files/CMakeFiles/shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/TopicNames.h
-shared_files/CMakeFiles/shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/PointSet.h
-shared_files/CMakeFiles/shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/MatchingPoints.h
-shared_files/CMakeFiles/shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/RelativePoint.h
-shared_files/CMakeFiles/shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/TransformNames.h
-shared_files/CMakeFiles/shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/PointEstimate.h
-shared_files/CMakeFiles/shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/FrameEstimate.h
 shared_files/CMakeFiles/shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/SettingsTransform.h
+shared_files/CMakeFiles/shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/TopicNames.h
+shared_files/CMakeFiles/shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/TransformNames.h
+shared_files/CMakeFiles/shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/RelativePoint.h
 shared_files/CMakeFiles/shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/RelativeFrame.h
-shared_files/CMakeFiles/shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/PixelMatch.h
-shared_files/CMakeFiles/shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/MatchFrame.h
 
+
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/SettingsTransform.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/SettingsTransform.h: /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/SettingsTransform.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/SettingsTransform.h: /opt/ros/indigo/share/geometry_msgs/msg/Quaternion.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/SettingsTransform.h: /opt/ros/indigo/share/geometry_msgs/msg/Transform.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/SettingsTransform.h: /opt/ros/indigo/share/geometry_msgs/msg/TransformStamped.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/SettingsTransform.h: /opt/ros/indigo/share/geometry_msgs/msg/Vector3.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/SettingsTransform.h: /opt/ros/indigo/share/std_msgs/msg/Header.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/SettingsTransform.h: /opt/ros/indigo/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from shared_files/SettingsTransform.msg"
+	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/shared_files && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/SettingsTransform.msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p shared_files -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/TopicNames.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/TopicNames.h: /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/TopicNames.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/TopicNames.h: /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/TopicNames.msg
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/TopicNames.h: /opt/ros/indigo/share/std_msgs/msg/String.msg
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/TopicNames.h: /opt/ros/indigo/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from shared_files/TopicNames.msg"
-	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/shared_files && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/TopicNames.msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p shared_files -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files -e /opt/ros/indigo/share/gencpp/cmake/..
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from shared_files/TopicNames.msg"
+	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/shared_files && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/TopicNames.msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p shared_files -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/PointSet.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/PointSet.h: /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointSet.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/PointSet.h: /opt/ros/indigo/share/std_msgs/msg/Int32.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/PointSet.h: /opt/ros/indigo/share/std_msgs/msg/Float32.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/PointSet.h: /opt/ros/indigo/share/geometry_msgs/msg/Point32.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/PointSet.h: /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointEstimate.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/PointSet.h: /opt/ros/indigo/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from shared_files/PointSet.msg"
-	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/shared_files && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointSet.msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p shared_files -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/MatchingPoints.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/MatchingPoints.h: /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/MatchingPoints.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/MatchingPoints.h: /opt/ros/indigo/share/std_msgs/msg/Float32.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/MatchingPoints.h: /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PixelMatch.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/MatchingPoints.h: /opt/ros/indigo/share/std_msgs/msg/Int32.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/MatchingPoints.h: /opt/ros/indigo/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from shared_files/MatchingPoints.msg"
-	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/shared_files && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/MatchingPoints.msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p shared_files -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files -e /opt/ros/indigo/share/gencpp/cmake/..
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/TransformNames.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/TransformNames.h: /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/TransformNames.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/TransformNames.h: /opt/ros/indigo/share/std_msgs/msg/String.msg
+/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/TransformNames.h: /opt/ros/indigo/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from shared_files/TransformNames.msg"
+	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/shared_files && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/TransformNames.msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p shared_files -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/RelativePoint.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/RelativePoint.h: /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/RelativePoint.msg
@@ -100,81 +93,21 @@ shared_files/CMakeFiles/shared_files_generate_messages_cpp: /home/ryan/GitHub_Wo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from shared_files/RelativePoint.msg"
 	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/shared_files && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/RelativePoint.msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p shared_files -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/TransformNames.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/TransformNames.h: /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/TransformNames.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/TransformNames.h: /opt/ros/indigo/share/std_msgs/msg/String.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/TransformNames.h: /opt/ros/indigo/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from shared_files/TransformNames.msg"
-	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/shared_files && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/TransformNames.msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p shared_files -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/PointEstimate.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/PointEstimate.h: /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointEstimate.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/PointEstimate.h: /opt/ros/indigo/share/std_msgs/msg/Float32.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/PointEstimate.h: /opt/ros/indigo/share/geometry_msgs/msg/Point32.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/PointEstimate.h: /opt/ros/indigo/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from shared_files/PointEstimate.msg"
-	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/shared_files && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointEstimate.msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p shared_files -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/FrameEstimate.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/FrameEstimate.h: /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/FrameEstimate.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/FrameEstimate.h: /opt/ros/indigo/share/std_msgs/msg/Int32.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/FrameEstimate.h: /opt/ros/indigo/share/geometry_msgs/msg/Point32.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/FrameEstimate.h: /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointSet.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/FrameEstimate.h: /opt/ros/indigo/share/std_msgs/msg/Float32.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/FrameEstimate.h: /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointEstimate.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/FrameEstimate.h: /opt/ros/indigo/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from shared_files/FrameEstimate.msg"
-	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/shared_files && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/FrameEstimate.msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p shared_files -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/SettingsTransform.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/SettingsTransform.h: /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/SettingsTransform.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/SettingsTransform.h: /opt/ros/indigo/share/geometry_msgs/msg/Quaternion.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/SettingsTransform.h: /opt/ros/indigo/share/geometry_msgs/msg/Transform.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/SettingsTransform.h: /opt/ros/indigo/share/geometry_msgs/msg/TransformStamped.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/SettingsTransform.h: /opt/ros/indigo/share/geometry_msgs/msg/Vector3.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/SettingsTransform.h: /opt/ros/indigo/share/std_msgs/msg/Header.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/SettingsTransform.h: /opt/ros/indigo/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from shared_files/SettingsTransform.msg"
-	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/shared_files && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/SettingsTransform.msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p shared_files -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files -e /opt/ros/indigo/share/gencpp/cmake/..
-
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/RelativeFrame.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/RelativeFrame.h: /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/RelativeFrame.msg
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/RelativeFrame.h: /opt/ros/indigo/share/std_msgs/msg/Int32.msg
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/RelativeFrame.h: /opt/ros/indigo/share/geometry_msgs/msg/Point.msg
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/RelativeFrame.h: /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/RelativePoint.msg
 /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/RelativeFrame.h: /opt/ros/indigo/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from shared_files/RelativeFrame.msg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from shared_files/RelativeFrame.msg"
 	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/shared_files && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/RelativeFrame.msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p shared_files -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/PixelMatch.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/PixelMatch.h: /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PixelMatch.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/PixelMatch.h: /opt/ros/indigo/share/std_msgs/msg/Float32.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/PixelMatch.h: /opt/ros/indigo/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from shared_files/PixelMatch.msg"
-	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/shared_files && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PixelMatch.msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p shared_files -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/MatchFrame.h: /opt/ros/indigo/lib/gencpp/gen_cpp.py
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/MatchFrame.h: /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/MatchFrame.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/MatchFrame.h: /opt/ros/indigo/share/std_msgs/msg/Float32.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/MatchFrame.h: /opt/ros/indigo/share/std_msgs/msg/Int32.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/MatchFrame.h: /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PixelMatch.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/MatchFrame.h: /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/MatchingPoints.msg
-/home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/MatchFrame.h: /opt/ros/indigo/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ryan/GitHub_WorkSpace/dataGeneration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from shared_files/MatchFrame.msg"
-	cd /home/ryan/GitHub_WorkSpace/dataGeneration/build/shared_files && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/MatchFrame.msg -Ishared_files:/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p shared_files -o /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files -e /opt/ros/indigo/share/gencpp/cmake/..
-
 shared_files_generate_messages_cpp: shared_files/CMakeFiles/shared_files_generate_messages_cpp
-shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/TopicNames.h
-shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/PointSet.h
-shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/MatchingPoints.h
-shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/RelativePoint.h
-shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/TransformNames.h
-shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/PointEstimate.h
-shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/FrameEstimate.h
 shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/SettingsTransform.h
+shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/TopicNames.h
+shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/TransformNames.h
+shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/RelativePoint.h
 shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/RelativeFrame.h
-shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/PixelMatch.h
-shared_files_generate_messages_cpp: /home/ryan/GitHub_WorkSpace/dataGeneration/devel/include/shared_files/MatchFrame.h
 shared_files_generate_messages_cpp: shared_files/CMakeFiles/shared_files_generate_messages_cpp.dir/build.make
 
 .PHONY : shared_files_generate_messages_cpp

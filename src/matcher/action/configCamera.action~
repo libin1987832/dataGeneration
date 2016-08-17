@@ -1,0 +1,6 @@
+std_msgs/String TopicName
+std_msgs/String CameraDirector
+---
+std_msgs/Empty foo
+---
+std_msgs/Empty fooo

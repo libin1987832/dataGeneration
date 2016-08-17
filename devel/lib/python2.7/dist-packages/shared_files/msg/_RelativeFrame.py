@@ -10,10 +10,10 @@ import geometry_msgs.msg
 import std_msgs.msg
 
 class RelativeFrame(genpy.Message):
-  _md5sum = "aed8a9c8614008d5571c40635b45b623"
+  _md5sum = "bac4de3f205f6a8002a0371e02d737fd"
   _type = "shared_files/RelativeFrame"
   _has_header = False #flag to mark the presence of a Header object
-  _full_text = """shared_files/RelativePoint[] PointCloudRelative
+  _full_text = """shared_files/RelativePoint[] Relative
 std_msgs/Int32 FrameNumber
 
 ================================================================================
@@ -31,7 +31,7 @@ float64 z
 ================================================================================
 MSG: std_msgs/Int32
 int32 data"""
-  __slots__ = ['PointCloudRelative','FrameNumber']
+  __slots__ = ['Relative','FrameNumber']
   _slot_types = ['shared_files/RelativePoint[]','std_msgs/Int32']
 
   def __init__(self, *args, **kwds):
@@ -42,7 +42,7 @@ int32 data"""
     changes.  You cannot mix in-order arguments and keyword arguments.
 
     The available fields are:
-       PointCloudRelative,FrameNumber
+       Relative,FrameNumber
 
     :param args: complete set of field values, in .msg order
     :param kwds: use keyword arguments corresponding to message field names
@@ -51,12 +51,12 @@ int32 data"""
     if args or kwds:
       super(RelativeFrame, self).__init__(*args, **kwds)
       #message fields cannot be None, assign default values for those that are
-      if self.PointCloudRelative is None:
-        self.PointCloudRelative = []
+      if self.Relative is None:
+        self.Relative = []
       if self.FrameNumber is None:
         self.FrameNumber = std_msgs.msg.Int32()
     else:
-      self.PointCloudRelative = []
+      self.Relative = []
       self.FrameNumber = std_msgs.msg.Int32()
 
   def _get_types(self):
@@ -71,9 +71,9 @@ int32 data"""
     :param buff: buffer, ``StringIO``
     """
     try:
-      length = len(self.PointCloudRelative)
+      length = len(self.Relative)
       buff.write(_struct_I.pack(length))
-      for val1 in self.PointCloudRelative:
+      for val1 in self.Relative:
         _v1 = val1.coord
         _x = _v1
         buff.write(_struct_3d.pack(_x.x, _x.y, _x.z))
@@ -89,15 +89,15 @@ int32 data"""
     :param str: byte array of serialized message, ``str``
     """
     try:
-      if self.PointCloudRelative is None:
-        self.PointCloudRelative = None
+      if self.Relative is None:
+        self.Relative = None
       if self.FrameNumber is None:
         self.FrameNumber = std_msgs.msg.Int32()
       end = 0
       start = end
       end += 4
       (length,) = _struct_I.unpack(str[start:end])
-      self.PointCloudRelative = []
+      self.Relative = []
       for i in range(0, length):
         val1 = shared_files.msg.RelativePoint()
         _v3 = val1.coord
@@ -109,7 +109,7 @@ int32 data"""
         start = end
         end += 4
         (_v4.data,) = _struct_i.unpack(str[start:end])
-        self.PointCloudRelative.append(val1)
+        self.Relative.append(val1)
       start = end
       end += 4
       (self.FrameNumber.data,) = _struct_i.unpack(str[start:end])
@@ -125,9 +125,9 @@ int32 data"""
     :param numpy: numpy python module
     """
     try:
-      length = len(self.PointCloudRelative)
+      length = len(self.Relative)
       buff.write(_struct_I.pack(length))
-      for val1 in self.PointCloudRelative:
+      for val1 in self.Relative:
         _v5 = val1.coord
         _x = _v5
         buff.write(_struct_3d.pack(_x.x, _x.y, _x.z))
@@ -144,15 +144,15 @@ int32 data"""
     :param numpy: numpy python module
     """
     try:
-      if self.PointCloudRelative is None:
-        self.PointCloudRelative = None
+      if self.Relative is None:
+        self.Relative = None
       if self.FrameNumber is None:
         self.FrameNumber = std_msgs.msg.Int32()
       end = 0
       start = end
       end += 4
       (length,) = _struct_I.unpack(str[start:end])
-      self.PointCloudRelative = []
+      self.Relative = []
       for i in range(0, length):
         val1 = shared_files.msg.RelativePoint()
         _v7 = val1.coord
@@ -164,7 +164,7 @@ int32 data"""
         start = end
         end += 4
         (_v8.data,) = _struct_i.unpack(str[start:end])
-        self.PointCloudRelative.append(val1)
+        self.Relative.append(val1)
       start = end
       end += 4
       (self.FrameNumber.data,) = _struct_i.unpack(str[start:end])

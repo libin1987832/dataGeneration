@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
-messages_str = "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/RelativePoint.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/RelativeFrame.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PixelMatch.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/MatchingPoints.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/MatchFrame.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/FrameEstimate.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointEstimate.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/PointSet.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/TransformNames.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/TopicNames.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/SettingsTransform.msg"
+messages_str = "/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/RelativePoint.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/RelativeFrame.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/TransformNames.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/TopicNames.msg;/home/ryan/GitHub_WorkSpace/dataGeneration/src/shared_files/msg/names_msgs/SettingsTransform.msg"
 services_str = ""
 pkg_name = "shared_files"
 dependencies_str = "geometry_msgs;sensor_msgs;std_msgs"

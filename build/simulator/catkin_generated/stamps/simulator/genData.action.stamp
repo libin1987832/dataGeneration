@@ -1,0 +1,19 @@
+std_msgs/String world_name
+std_msgs/String unique_id
+std_msgs/String path_name
+std_msgs/Bool new_prefixes
+std_msgs/String cm
+std_msgs/String l
+std_msgs/String r
+std_msgs/String lcv
+std_msgs/String rcv
+std_msgs/Bool load_world
+std_msgs/String world_dir
+std_msgs/Bool load_path
+std_msgs/String path_dir
+---
+#result definition
+std_msgs/Empty foo
+---
+#feedback
+std_msgs/Empty fooo

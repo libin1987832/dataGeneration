@@ -1,6 +1,6 @@
 (cl:in-package shared_files-msg)
-(cl:export '(POINTCLOUDRELATIVE-VAL
-          POINTCLOUDRELATIVE
+(cl:export '(RELATIVE-VAL
+          RELATIVE
           FRAMENUMBER-VAL
           FRAMENUMBER
 ))

@@ -13,11 +13,14 @@ find_package(catkin REQUIRED COMPONENTS
 	actionlib_msgs
 	message_generation
 	message_runtime
+	tf2_ros
+	tf2
+	tf
 )
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
-
+find_package(OpenCV REQUIRED)
 
 ## Uncomment this if the package has a setup.py. This macro ensures
 ## modules and global scripts declared therein get installed
@@ -53,15 +56,9 @@ add_message_files(
    FILES
    RelativePoint.msg
 	 RelativeFrame.msg
-	 PixelMatch.msg
-	 MatchingPoints.msg
-	 MatchFrame.msg
-	 FrameEstimate.msg
-	 PointEstimate.msg
-	 PointSet.msg
-	 TransformNames.msg
-	 TopicNames.msg
-	 SettingsTransform.msg
+	 names_msgs/TransformNames.msg
+	 names_msgs/TopicNames.msg
+	 names_msgs/SettingsTransform.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -124,6 +121,9 @@ catkin_package(
 	roscpp 
 	sensor_msgs 
 	std_msgs
+	tf2_ros
+	tf2
+	tf
 #  DEPENDS system_lib
 )
 
@@ -136,6 +136,7 @@ catkin_package(
 # include_directories(include)
 include_directories(
   ${catkin_INCLUDE_DIRS}
+	${OpenCV_INCLUDE_DIRS}
 	include 
 )
 
@@ -150,16 +151,17 @@ include_directories(
 # add_dependencies(shared_msgs ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Declare a C++ executable
-# add_executable(shared_msgs_node src/shared_msgs_node.cpp)
+add_executable(config_node src/node.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
 # add_dependencies(shared_msgs_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(shared_msgs_node
-#   ${catkin_LIBRARIES}
-# )
+target_link_libraries(config_node
+   ${catkin_LIBRARIES}
+	${OpenCV_LIBRARIES}
+ )
 
 #############
 ## Install ##
